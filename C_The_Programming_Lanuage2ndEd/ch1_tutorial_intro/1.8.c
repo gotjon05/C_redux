@@ -8,17 +8,16 @@ int main(){
     tab = nl = blanks = 0;
 
     while((c = getchar()) != EOF){
-        if(c == '\t'){
+          if(c == ' '){
+            ++blanks;
+        }
+        else if(c == '\t'){
             ++tab;
         }
         else if(c == '\n'){
             ++nl;
         }
-        else if(c == ' '){
-            ++blanks;
-        }
+     
     }
-   printf("tabs: %d spaces: %d blanks: %d", tab, nl, blanks);
-
-
+	printf("%d %d %d\n", blanks, tab, nl);
 }
