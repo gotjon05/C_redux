@@ -1,0 +1,35 @@
+
+
+
+
+Task: Print a Histogram of the word_lens of the words in its input. Horizontal or Vertical 
+
+
+
+Pseudo-code 
+1. Check if inside a word
+    Inside Word if input is not equal to Space, Tab, or Newline, 
+2. if inside, word_len the characters until the word ends. 
+    word_len until Space, Tab, or Newline. 
+3. Store final character word_len in array, store 
+3. repeat process until EOF
+    Check if inside a word
+4. Store all the values of the histogram beforehand.
+5. 
+
+
+Input:
+    ex. 1. testing word_len 
+        2. hello world 
+Output:
+1 
+2
+3
+4
+5 hello, world 
+6 word_len
+7 testing 
+
+
+
+

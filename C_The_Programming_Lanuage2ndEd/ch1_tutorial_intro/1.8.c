@@ -1,4 +1,4 @@
-// Count blanks, tabs and nls 
+// word_len blanks, tabs and nls
 
 
 #include <stdio.h>
@@ -17,7 +17,7 @@ int main(){
         else if(c == '\n'){
             ++nl;
         }
-     
+
     }
-	printf("%d %d %d\n", blanks, tab, nl);
+	printf("%d %d %d", blanks, tab, nl);
 }
